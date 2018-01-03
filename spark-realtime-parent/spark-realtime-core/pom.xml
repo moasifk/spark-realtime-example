@@ -13,6 +13,7 @@
 	<properties>
 		<spark.core.version>1.6.0</spark.core.version>
 		<hbase.version>1.0.1</hbase.version>
+		<jdk.version>1.7</jdk.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -23,8 +24,8 @@
 		<!-- Spark -->
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-core_2.11</artifactId>
-            <version>2.1.0</version>
+            <artifactId>spark-core_2.10</artifactId>
+            <version>${spark.core.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
